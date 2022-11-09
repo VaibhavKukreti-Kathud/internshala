@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "969245322170",
+    "project_id": "internshala-abdce",
+    "storage_bucket": "internshala-abdce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969245322170:android:a2b1f62392adc27de18b83",
+        "android_client_info": {
+          "package_name": "com.example.internshala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969245322170-s9e46ma5iro96rpmoosnqhdrpeubej50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEQdZbixdTkSKGxRmcF5BG3XLYxi0e21c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969245322170-s9e46ma5iro96rpmoosnqhdrpeubej50.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
