@@ -228,13 +228,9 @@ class ListScreen extends StatelessWidget {
                                         pfpUrl: fetchedUser['pfpUrl'],
                                       )));
                         },
-                        leading: Hero(
-                          tag: fetchedUser['name'],
-                          child: CircleAvatar(
-                            backgroundImage: NetworkImage(fetchedUser[
-                                    'pfpUrl'] ??
-                                'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png'),
-                          ),
+                        leading: CircleAvatar(
+                          backgroundImage: NetworkImage(fetchedUser['pfpUrl'] ??
+                              'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png'),
                         ),
                         title: Text(fetchedUser['name'] ?? 'Vaibhav'),
                         subtitle: Text(fetchedUser['department'] ?? 'hr'),
@@ -275,13 +271,10 @@ class DetailsScreen extends StatelessWidget {
           children: [
             Align(
               alignment: Alignment.center,
-              child: Hero(
-                tag: phone!,
-                child: CircleAvatar(
-                  radius: 60,
-                  backgroundImage: NetworkImage(pfpUrl ??
-                      'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png'),
-                ),
+              child: CircleAvatar(
+                radius: 60,
+                backgroundImage: NetworkImage(pfpUrl ??
+                    'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png'),
               ),
             ),
             SizedBox(height: 10),
